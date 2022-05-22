@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My own homepage</title>
+    <link rel="stylesheet" href="F_style/style.css">
+</head>
+<body>
+    <h1 class="hidden"></h1>
+    <form class="nameForm hidden">
+        <input type="text" required placeholder="Write your name">
+    </form>
+    <div class="time"></div>
+    <img class="background-image"></img>
+    <img src="img/note.png" class="note">
+    <div class="toDo">
+        <h4>To Do List</h4>
+        <form class="toDo__form">
+            <input type="text" required placeholder="Wirte your To-Do-List!  (Max Count : 12)">
+        </form>
+        <ul class="toDo-list">
+        </ul>
+    </div>
+    <div class="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="quoteDiv">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="F_js/F_login.js"></script>
+    <script src="F_js/F_clock.js"></script>
+    <script src="F_js/F_background.js"></script>
+    <script src="F_js/F_todo.js"></script>
+    <script src="F_js/F_weather.js"></script>
+    <script src="F_js/F_quotes.js"></script>
+</body>
+</html>
